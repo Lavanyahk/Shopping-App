@@ -1,13 +1,17 @@
 # Shopping App
 
-A multi-page shopping application built using HTML, CSS, and JavaScript.
+This project is a simple multi-page shopping application developed using HTML, CSS, and JavaScript.  
+It demonstrates basic frontend development concepts such as page navigation, styling, and JavaScript functionality.
+
+## Project Structure
+shopping-app/ │── home.html │── home.css │── login.html │── login.css │── register.html │── register.css │── shop.html │── shop.js │── README.md
 
 ## Pages
-- Home Page
-- Login Page
-- Register Page
-- Shop Page
-
+- Home Page – Entry point of the application  
+- Login Page – Allows users to log in  
+- Register Page – Allows new users to create an account  
+- Shop Page – Displays products and handles shopping logic using JavaScript
+  
 ## Features
 - User-friendly UI
 - Login and registration pages
