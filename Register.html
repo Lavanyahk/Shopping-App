@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--link rel="stylesheet" href="./Register.css"-->
+</head>
+<body>
+    <form action="">
+        <label for="">Name:</label>
+        <input type="text" id="name">
+        <label for="">Phone:</label>
+        <input type="tel" pattern="[0-9]{10}" id="Phone">
+        <label for="">Email:</label>
+        <input type="email" id="email">
+        <label for="">DOB:</label>
+        <input type="date" id="date">
+        <label for="">Password:</label>
+        <input type="password" id="pwd">
+        <label for="">Profile:</label>
+        <input type="text" id="img">
+        <button onclick="addInfo(event)">Register</button>
+        <p>Already had Account <a href="./Login.html">Login</a></p>
+    </form>
+
+    <script src="./Shop.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+form{
+    display: grid;
+    font-size: 25px;
+    grid-template-columns: 150px 200px;
+    gap: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+    left: 20vw;
+}
+
+button{
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+}
+
+input:hover{
+    border-radius: 15px;
+}
+button:hover{
+    background-color: aqua;
+    border-radius: 15px;
+}

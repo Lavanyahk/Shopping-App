@@ -1,0 +1,32 @@
+.login{
+    display: flex;
+    border: 2px solid  black;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+.tumbnail{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGK3diR3Zi-mnOXEaj-3ewmFyRYVxGzVzZw&s);
+    height: 500px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login form{
+    display: grid;
+    grid-template-columns: 200px;
+    font-size: 25px;
+    gap: 30px;
+}
+
+.login input,button{
+    text-align: center;
+    height: 25px;
+    border-radius: 8px;
+}
