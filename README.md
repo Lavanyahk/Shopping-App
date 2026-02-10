@@ -30,3 +30,4 @@ Open home.html in a web browser and navigate through the app.
 - Form validation
 - Backend integration
 - Database support
+
